@@ -1,0 +1,10 @@
+@use '../styles/fonts.scss';
+
+body {
+  font-family: 'ProximaNova', sans-serif;
+}
+.container {
+  max-width: 1356px;
+  margin: 0 auto;
+  padding: 30px;
+}
