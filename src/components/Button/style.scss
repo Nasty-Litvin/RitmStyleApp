@@ -1,0 +1,28 @@
+.btn {
+    font-family: 'ProximaNova', sans-serif;;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    
+
+    &__color {
+        background: var(--btn-main);
+        padding: 9px 15px;
+        border-radius: 3px; 
+    }
+    &__color:hover {
+        opacity: 0.8;
+        transition: opacity 0.4s ease;
+        color: rgb(207, 235, 226);
+    }
+
+    &__color--white {
+        background: var(--btn-white);
+        padding: 9px 15px;
+        border-radius: 3px;
+    }
+    &__color--white:hover {
+        opacity: 0.8;
+        transition: opacity 0.4s ease;
+    }
+}
