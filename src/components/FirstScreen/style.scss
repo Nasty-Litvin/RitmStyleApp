@@ -1,0 +1,24 @@
+.first-screen {
+    background: url(../../../public/firstScreen/cover.png);
+    height: 600px;
+    padding: 136px;
+
+    &__title {
+        margin-bottom: 40px;
+        .title__wrapper::before {
+            margin-right: 66px;
+        }
+        .title__wrapper::after {
+            margin-left: 66px;
+        }
+    }
+    &__subtitle {
+        max-width: 587px;
+        font-family: 'El Messiri';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 140%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
