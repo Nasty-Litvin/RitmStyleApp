@@ -4,11 +4,23 @@
     padding: 136px;
 
     &__title {
+        font-size: 42px;
         margin-bottom: 40px;
+
         .title__wrapper::before {
+            content: "";
+            width: 28px;
+            height: 14px;
+            background: var(--color);
+            border-radius: 0 50px 0 50px;
             margin-right: 66px;
         }
         .title__wrapper::after {
+            content: "";
+            width: 28px;
+            height: 14px;
+            background: var(--color);
+            border-radius: 50px 0 50px 0;
             margin-left: 66px;
         }
     }
