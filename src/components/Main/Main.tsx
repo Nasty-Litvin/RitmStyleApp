@@ -1,3 +1,4 @@
+import About from '../About/About';
 import FirstScreen from '../FirstScreen/FirstScreen';
 import Services from '../Services/Services';
 import './style.scss';
@@ -11,6 +12,9 @@ const Main = () => {
                 </div>
                 <div className="main__services">
                     <Services />
+                </div>
+                <div className="main__about">
+                    <About />
                 </div>
             </div>
         </main>
