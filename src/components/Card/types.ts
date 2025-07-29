@@ -1,5 +1,7 @@
 export interface CardProps {
-    title: string;
+    title?: string;
     btn?: string;
+    coverImg?: string;
     cover?: string;
+    children?: React.ReactNode;
 }
