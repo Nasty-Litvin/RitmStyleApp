@@ -50,7 +50,7 @@ const Services = () => {
                             key={item.id}
                             title={item.title}
                             btn={item.textBtn}
-                            cover={item.coverUrl}
+                            coverImg={item.coverUrl}
                         />
                     ))}
                 </div>
