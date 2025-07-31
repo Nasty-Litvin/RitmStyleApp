@@ -1,10 +1,13 @@
 import { ButtonProps } from './types';
 import './style.scss';
 
-const Button = ({textBtn, color}: ButtonProps) => {
+const Button = ({textBtn, color, onClick}: ButtonProps) => {
     return (
         <div className="btn">
-            <button className={color === 'white' ? 'btn__color btn__color--white' : 'btn__color'}>{textBtn}</button>
+            <button 
+                className={color === 'white' ? 'btn__color btn__color--white' : 'btn__color'}
+                onClick={onClick}
+                >{textBtn}</button>
         </div>
     );
 }
