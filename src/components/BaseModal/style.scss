@@ -1,0 +1,14 @@
+.base-modal {
+
+    &__box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+        height: 500px;
+        background: #359bc3;
+        border-radius: 10px;
+        padding: 25px;
+    }
+}
