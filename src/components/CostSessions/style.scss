@@ -1,0 +1,74 @@
+.cost-sessions {
+    &__wrapper {
+        max-width: 1076px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 42px;
+        margin-bottom: 100px;
+
+         .title__wrapper::before {
+            content: "";
+            width: 28px;
+            height: 14px;
+            background: #018ABE;
+            border-radius: 0 50px 0 50px;
+            margin-right: 45px;
+        }
+        .title__wrapper::after {
+            content: "";
+            width: 28px;
+            height: 14px;
+            background: #018ABE;
+            border-radius: 50px 0 50px 0;
+            margin-left: 45px;
+        }
+    }
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+    }
+
+    &__lines {
+        display: flex;
+        flex-direction: column;
+
+        .line-cost {
+            &__wrapper {
+                display: flex;
+                justify-content: space-between;
+                width: 416px;
+                margin-bottom: 31px;
+            }
+            &__name {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+            }
+            &__name::before {
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 9px;
+                background: #018ABE;
+                border-radius:  0 50px 0 50px;
+                margin: 0 20px 5px 0;
+            }
+        }
+    }
+
+    &__gift-certificate {
+        display: flex;
+        justify-content: center;
+        font-family: El Messiri;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 140%;
+        margin-top: 30px;
+    }
+}
