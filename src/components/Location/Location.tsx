@@ -56,14 +56,9 @@ const Location = () => {
             <div className="location__wrapper">
                 <div className="location__map-wrapper">
                     <div className="location__map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5851632564067!2d30.314130315775364!3d59.93873298187643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f27.9!3m3!1m2!1s0x46963101f2d72a55%3A0x6972d2c6b40772de!2z0KHQtdC80LDRgtGL0Lkg0J_QsNC00LXRgdC60L7Qs9C-LCDQnNC-0YHQutCy0LAsINCR0L7Qu9C-0LvQsNCy0YHQutC40Lkg0LrQsNCy0YHQutC-0LU!5e0!3m2!1sru!2sru!4v1700000000000!5m2!1sru!2sru"
-                            width="100%"
-                            height="400"
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title="Санкт-Петербург"
-                        />
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af2fe7b3e569a6fdfb6c9459eda6be0f350094b0b9beb6dca7976c13c5cd06aa0&amp;source=constructor" 
+                        width="100%" 
+                        height="100%"></iframe>
                     </div>
                 </div>
 
