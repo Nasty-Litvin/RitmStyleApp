@@ -1,0 +1,18 @@
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 0 0;
+    }
+    &__text {
+        font-size: 14px;
+    }
+    &__link a {
+        color: var(--color);
+        transition: color 0.3s ease;
+        font-size: 14px;
+    }
+    &__link a:hover {
+        color: grey;
+    }
+}
