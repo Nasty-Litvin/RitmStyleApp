@@ -21,7 +21,6 @@ const aboutData = [
             "Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.",
         ],
     }
-
 ]
 
 const About = () => {
@@ -32,11 +31,12 @@ const About = () => {
                     <Title textTitle={aboutTitle}/>
                 </div>
                 <div className="about__cards">
-                    {aboutData.map((item) => (
+                    {aboutData.map((item, index) => (
                         <AboutCard
                             key={item.id}
                             title={item.name}
                             subtitle={item.description}
+                            reverse={index % 2 !== 0} // true для 2-й карточки, false для 1-й
                         />
                     ))}
                 </div>
